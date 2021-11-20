@@ -39,6 +39,7 @@ namespace Glance.src.Widgets
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::Glance.Properties.Resources.BatteryCharging;
             this.pictureBox1.Location = new System.Drawing.Point(12, 31);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 100);
@@ -70,20 +71,22 @@ namespace Glance.src.Widgets
             // timer1
             // 
             this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // frmBattery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(553, 184);
+            this.ClientSize = new System.Drawing.Size(534, 184);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmBattery";
-            this.Text = "frmBattery";
+            this.Text = "Battery ";
             this.Load += new System.EventHandler(this.frmBattery_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmBattery_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -29,14 +29,16 @@ namespace Glance
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,6 +81,16 @@ namespace Glance
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Controls";
             // 
+            // button4
+            // 
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(6, 103);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(116, 32);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "Hide this Menu";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // button2
             // 
             this.button2.ForeColor = System.Drawing.Color.Black;
@@ -98,6 +110,7 @@ namespace Glance
             this.button1.TabIndex = 3;
             this.button1.Text = "Show";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -121,17 +134,15 @@ namespace Glance
             this.label3.TabIndex = 6;
             this.label3.Text = "v1.0.0";
             // 
-            // button4
+            // notifyIcon1
             // 
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(6, 103);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(116, 32);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Hide this Menu";
-            this.button4.UseVisualStyleBackColor = true;
+            this.notifyIcon1.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.notifyIcon1.BalloonTipText = "Glance has hidden to tray, to open Glance again, please click the icon again.";
+            this.notifyIcon1.BalloonTipTitle = "Glance";
+            this.notifyIcon1.Text = "Glance";
+            this.notifyIcon1.Visible = true;
             // 
-            // Form1
+            // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -142,7 +153,7 @@ namespace Glance
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "frmMain";
             this.Text = "Glance";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -160,6 +171,7 @@ namespace Glance
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 

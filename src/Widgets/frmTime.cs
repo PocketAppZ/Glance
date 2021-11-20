@@ -8,19 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Glance
+namespace Glance.src.Widgets
 {
-    public partial class frmMain : Form
+    public partial class frmTime : Form
     {
-        public frmMain()
+        public frmTime()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-             src.Widgets.frmBattery Battery = new src.Widgets.frmBattery();
-            Battery.Show();
         }
     }
 }
