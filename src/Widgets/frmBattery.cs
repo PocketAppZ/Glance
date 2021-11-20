@@ -16,5 +16,10 @@ namespace Glance.src.Widgets
         {
             InitializeComponent();
         }
+
+        private void frmBattery_Load(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+        }
     }
 }
