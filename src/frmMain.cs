@@ -21,6 +21,9 @@ namespace Glance
         {
              src.Widgets.frmBattery Battery = new src.Widgets.frmBattery();
             Battery.Show();
+
+            src.Widgets.frmTime Time = new src.Widgets.frmTime();
+            Time.Show();
         }
     }
 }

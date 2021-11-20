@@ -18,3 +18,4 @@ C:\Users\Super\Desktop\Glance\Glance\Glance\obj\Debug\net5.0-windows\Glance.genr
 C:\Users\Super\Desktop\Glance\Glance\Glance\obj\Debug\net5.0-windows\Glance.frmMain.resources
 C:\Users\Super\Desktop\Glance\Glance\Glance\obj\Debug\net5.0-windows\Glance.src.Widgets.frmBattery.resources
 C:\Users\Super\Desktop\Glance\Glance\Glance\obj\Debug\net5.0-windows\Glance.Properties.Resources.resources
+C:\Users\Super\Desktop\Glance\Glance\Glance\obj\Debug\net5.0-windows\Glance.src.Widgets.frmTime.resources
