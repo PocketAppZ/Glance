@@ -16,14 +16,32 @@ namespace Glance
         {
             InitializeComponent();
         }
-
+       
         private void button1_Click(object sender, EventArgs e)
         {
-             src.Widgets.frmBattery Battery = new src.Widgets.frmBattery();
-            Battery.Show();
-
+            src.Widgets.frmBattery Battery = new src.Widgets.frmBattery();
             src.Widgets.frmTime Time = new src.Widgets.frmTime();
+            Battery.Show();
             Time.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            src.Widgets.frmBattery Battery = new src.Widgets.frmBattery();
+            src.Widgets.frmTime Time = new src.Widgets.frmTime();
+            Battery.Hide();
+            Time.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            notifyIcon1.ShowBalloonTip(3000);
+            this.Hide();
+        }
+
+        private void notifyIcon1_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.Show();
         }
     }
 }
