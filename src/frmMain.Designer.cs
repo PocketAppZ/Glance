@@ -135,9 +135,9 @@ namespace Glance
             this.label3.ForeColor = System.Drawing.Color.Gray;
             this.label3.Location = new System.Drawing.Point(488, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 20);
+            this.label3.Size = new System.Drawing.Size(45, 20);
             this.label3.TabIndex = 6;
-            this.label3.Text = "v1.0.0";
+            this.label3.Text = "v1.1.0";
             // 
             // notifyIcon1
             // 
