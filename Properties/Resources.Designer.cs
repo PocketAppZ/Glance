@@ -73,9 +73,29 @@ namespace Glance.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BatteryChargingWhite {
+            get {
+                object obj = ResourceManager.GetObject("BatteryChargingWhite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BatteryOnCharge {
             get {
                 object obj = ResourceManager.GetObject("BatteryOnCharge", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BatteryOnChargeWhite {
+            get {
+                object obj = ResourceManager.GetObject("BatteryOnChargeWhite", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

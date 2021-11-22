@@ -96,11 +96,23 @@ namespace Glance.src.Widgets
                 label2.Text = "" + perFull * 100 + "%";
                 label1.Text = "Charging.";
                 pictureBox1.Image = Properties.Resources.BatteryCharging;
+                if(Properties.Settings.Default.WidgetTheme == "light")
+                {
+                    label2.Text = "" + perFull * 100 + "%";
+                    label1.Text = "Charging.";
+                    pictureBox1.Image = Properties.Resources.BatteryChargingWhite;
+                }
             } else
             {
                 label2.Text = "" + perFull * 100 + "%";
                 label1.Text = "On Battery.";
                 pictureBox1.Image = Properties.Resources.BatteryOnCharge;
+                if (Properties.Settings.Default.WidgetTheme == "light")
+                {
+                    label2.Text = "" + perFull * 100 + "%";
+                    label1.Text = "On Battery.";
+                    pictureBox1.Image = Properties.Resources.BatteryOnChargeWhite;
+                }
             }
 
             CallSettings();
