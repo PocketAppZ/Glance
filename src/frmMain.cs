@@ -15,22 +15,21 @@ namespace Glance
         public frmMain()
         {
             InitializeComponent();
+
         }
-       
+        src.Widgets.frmBattery Battery = new src.Widgets.frmBattery();
+        src.Widgets.frmTime Time = new src.Widgets.frmTime();
+
         private void button1_Click(object sender, EventArgs e)
         {
-            src.Widgets.frmBattery Battery = new src.Widgets.frmBattery();
-            src.Widgets.frmTime Time = new src.Widgets.frmTime();
             Battery.Show();
             Time.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            src.Widgets.frmBattery Battery = new src.Widgets.frmBattery();
-            src.Widgets.frmTime Time = new src.Widgets.frmTime();
             Battery.Hide();
-            Time.Hide();
+           Time.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)

@@ -15,6 +15,8 @@ namespace Glance.src
         public frmOptions()
         {
             InitializeComponent();
+            WidgetShapeSetting();
+            WidgetColorSetting();
         }
 
         private void frmOptions_Load(object sender, EventArgs e)
@@ -46,15 +48,50 @@ namespace Glance.src
 
 
 
-            if(Properties.Settings.Default.WidgetShape == "default")
+            if (Properties.Settings.Default.WidgetShape == "default")
             {
                 radioButton1.Checked = true;
             }
 
-            if(Properties.Settings.Default.WidgetShape == "newer")
+            if (Properties.Settings.Default.WidgetShape == "newer")
             {
                 radioButton2.Checked = true;
             }
+        }
+
+        private void WidgetColorSetting()
+        {   
+            if(radioButton3.Checked == true)
+            {
+                Properties.Settings.Default.WidgetTheme = "dark";
+            }
+
+            if (radioButton4.Checked == true)
+            {
+                Properties.Settings.Default.WidgetTheme = "light";
+            }
+            label5.Text = "Current Setting: " + Properties.Settings.Default.WidgetTheme;
+
+
+            if (Properties.Settings.Default.WidgetTheme == "dark")
+            {
+                radioButton3.Checked = true;
+            }
+
+            if (Properties.Settings.Default.WidgetTheme == "light")
+            {
+                radioButton4.Checked = true;
+            }
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            WidgetColorSetting();
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            WidgetColorSetting();
         }
     }
 }

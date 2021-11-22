@@ -30,12 +30,48 @@ namespace Glance.src.Widgets
             {
                 Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
             }
-           
+
+            if(Properties.Settings.Default.WidgetTheme == "dark")
+            {
+                // do nothing.
+            }
+
+            if (Properties.Settings.Default.WidgetTheme == "light")
+            {
+                this.BackColor = Color.White;
+                label1.ForeColor = Color.Black;
+                label2.ForeColor = Color.Black;
+            }
+
+
         }
 
+        private void CallSettings()
+        {
+            if (Properties.Settings.Default.WidgetShape == "newer")
+            {
+                Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+            }
+
+            if (Properties.Settings.Default.WidgetTheme == "dark")
+            {
+                //Fallback in case it doesn't change properly.
+
+                this.BackColor = Color.FromArgb(20,20,20);
+                label1.ForeColor = Color.White;
+                label2.ForeColor = Color.White;
+            }
+
+            if (Properties.Settings.Default.WidgetTheme == "light")
+            {
+                this.BackColor = Color.White;
+                label1.ForeColor = Color.Black;
+                label2.ForeColor = Color.Black;
+            }
+        }
         private void timer1_Tick(object sender, EventArgs e)
         {
-
+            CallSettings();
         }
 
         public const int WM_NCLBUTTONDOWN = 0xA1;
