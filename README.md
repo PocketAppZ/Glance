@@ -1,7 +1,7 @@
 # Glance
 ![GitHub all releases](https://img.shields.io/github/downloads/LiteTools/Glance/total?style=flat-square)
 
-The next big step with widgets and customization.
+*The next big step with widgets and customization.*
 
 ## Intentions
 Glance is the next big step for desktop widgets.  Glance is a widget application that has many features and settings, so you can customize it to your heart's content while still being lightweight and using a minimal amount of CPU / GPU usage.
@@ -15,4 +15,6 @@ Glance is the next big step for desktop widgets.  Glance is a widget application
 
 - Lightweight and easy to use!
 
+### Contributors
 
+- Byron (@byronbytes) - Initial Developer
