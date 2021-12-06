@@ -1,14 +1,18 @@
 # Glance
 ![GitHub all releases](https://img.shields.io/github/downloads/LiteTools/Glance/total?style=flat-square)
 
-Customizable and lightweight widgets. 
+The next big step with widgets and customization.
 
 ## Intentions
-Our goal for Glance is to make a lightweight widget application that people can customize.
-
+Glance is the next big step for desktop widgets.  Glance is a widget application that has many features and settings, so you can customize it to your heart's content while still being lightweight and using a minimal amount of CPU / GPU usage.
 
 ## Features
-- A battery widget, to check how much percentage your battery is on, and if it's charging or not.
-- A time widget, which shows the current time (hours minutes seconds) and the current date.
-- Customizable settings with a theme editor and shapes.
+- A widget to check the current time and date.
+
+- A widget to check if your computer is on battery or charging, and it's current percentage.
+
+- Fully customizable with opacity, widget shape, and themes.
+
+- Lightweight and easy to use!
+
 
