@@ -42,8 +42,6 @@ namespace Glance.src.Widgets
                 label1.ForeColor = Color.Black;
                 label2.ForeColor = Color.Black;
             }
-
-
         }
 
         private void CallSettings()
@@ -55,8 +53,6 @@ namespace Glance.src.Widgets
 
             if (Properties.Settings.Default.WidgetTheme == "dark")
             {
-                //Fallback in case it doesn't change properly.
-
                 this.BackColor = Color.FromArgb(20,20,20);
                 label1.ForeColor = Color.White;
                 label2.ForeColor = Color.White;
@@ -81,7 +77,6 @@ namespace Glance.src.Widgets
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
-
 
         public void displayTime(object sender, EventArgs e)
         {
