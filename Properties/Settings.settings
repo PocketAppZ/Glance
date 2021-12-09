@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="WidgetShape" Type="System.String" Scope="User">
-      <Value Profile="(Default)">default</Value>
+      <Value Profile="(Default)">newer</Value>
     </Setting>
     <Setting Name="WidgetTheme" Type="System.String" Scope="User">
       <Value Profile="(Default)">dark</Value>

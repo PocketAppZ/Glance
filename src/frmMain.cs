@@ -48,5 +48,9 @@ namespace Glance
             src.frmOptions Options = new src.frmOptions();
             Options.Show();
         }
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

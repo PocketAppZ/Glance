@@ -25,7 +25,7 @@ namespace Glance.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("default")]
+        [global::System.Configuration.DefaultSettingValueAttribute("newer")]
         public string WidgetShape {
             get {
                 return ((string)(this["WidgetShape"]));
