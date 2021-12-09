@@ -19,6 +19,7 @@ namespace Glance
         }
         src.Widgets.frmBattery Battery = new src.Widgets.frmBattery();
         src.Widgets.frmTime Time = new src.Widgets.frmTime();
+        src.frmOptions Options = new src.frmOptions();
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -45,7 +46,6 @@ namespace Glance
 
         private void button3_Click(object sender, EventArgs e)
         {
-            src.frmOptions Options = new src.frmOptions();
             Options.Show();
         }
         private void frmMain_Load(object sender, EventArgs e)
