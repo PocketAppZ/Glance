@@ -130,4 +130,7 @@
   <data name="BatteryChargingWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BatteryChargingWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Glance Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glance Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
