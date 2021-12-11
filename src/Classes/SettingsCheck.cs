@@ -12,10 +12,7 @@ namespace Glance.src.Classes
 
         public void PreloadCheck()
         {
-            if (Properties.Settings.Default.WidgetShape == "newer")
-            {
-                Debug.Print("Widget Shape: Circular / Newer Version");
-            }
+
         }
     }
 }

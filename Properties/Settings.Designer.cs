@@ -25,18 +25,6 @@ namespace Glance.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("newer")]
-        public string WidgetShape {
-            get {
-                return ((string)(this["WidgetShape"]));
-            }
-            set {
-                this["WidgetShape"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("dark")]
         public string WidgetTheme {
             get {

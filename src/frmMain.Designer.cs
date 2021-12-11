@@ -78,7 +78,7 @@ namespace Glance
             this.groupBox1.Location = new System.Drawing.Point(12, 63);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox1.Size = new System.Drawing.Size(318, 142);
+            this.groupBox1.Size = new System.Drawing.Size(289, 142);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Controls";
@@ -135,9 +135,9 @@ namespace Glance
             this.label3.ForeColor = System.Drawing.Color.Gray;
             this.label3.Location = new System.Drawing.Point(488, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 20);
+            this.label3.Size = new System.Drawing.Size(47, 20);
             this.label3.TabIndex = 6;
-            this.label3.Text = "v1.1.0";
+            this.label3.Text = "v1.2.0";
             // 
             // notifyIcon1
             // 
@@ -154,11 +154,11 @@ namespace Glance
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(400, 29);
+            this.label4.Location = new System.Drawing.Point(324, 29);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(141, 60);
+            this.label4.Size = new System.Drawing.Size(217, 20);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Glance is still in\r\nBETA, things will be\r\nunstable.";
+            this.label4.Text = "Glance is still in BETA TESTING.";
             // 
             // frmMain
             // 

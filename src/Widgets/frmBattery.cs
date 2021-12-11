@@ -28,10 +28,7 @@ namespace Glance.src.Widgets
             InitializeComponent();
             timer1.Enabled = true;
 
-            if (Properties.Settings.Default.WidgetShape == "newer")
-            {
                 Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
-            }
 
             if (Properties.Settings.Default.WidgetTheme == "dark")
             {
@@ -51,10 +48,8 @@ namespace Glance.src.Widgets
 
         private void CallSettings()
         {
-            if (Properties.Settings.Default.WidgetShape == "newer")
-            {
-                Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
-            }
+             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+            
 
             if (Properties.Settings.Default.WidgetTheme == "dark")
             {
