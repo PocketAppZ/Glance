@@ -87,6 +87,7 @@ namespace Glance.src.Widgets
             this.Name = "frmBattery";
             this.Text = "Battery ";
             this.Load += new System.EventHandler(this.frmBattery_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.frmBattery_Paint);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmBattery_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

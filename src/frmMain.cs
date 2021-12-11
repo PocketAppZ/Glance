@@ -50,7 +50,12 @@ namespace Glance
         }
         private void frmMain_Load(object sender, EventArgs e)
         {
+         
+        }
 
+        private void frmMain_Paint(object sender, PaintEventArgs e)
+        {
+ 
         }
     }
 }

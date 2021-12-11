@@ -50,8 +50,8 @@ namespace Glance.src.Widgets
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 163);
+            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label2.Location = new System.Drawing.Point(26, 133);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 50);
             this.label2.TabIndex = 1;

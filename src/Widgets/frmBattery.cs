@@ -121,5 +121,10 @@ namespace Glance.src.Widgets
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
+
+        private void frmBattery_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
