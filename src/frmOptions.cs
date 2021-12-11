@@ -43,11 +43,13 @@ namespace Glance.src
             if(radioButton3.Checked == true)
             {
                 Properties.Settings.Default.WidgetTheme = "dark";
+                Properties.Settings.Default.Save();
             }
 
             if (radioButton4.Checked == true)
             {
                 Properties.Settings.Default.WidgetTheme = "light";
+                Properties.Settings.Default.Save();
             }
             label5.Text = "Current Setting: " + Properties.Settings.Default.WidgetTheme;
 
@@ -61,6 +63,8 @@ namespace Glance.src
             {
                 radioButton4.Checked = true;
             }
+
+         
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)

@@ -71,7 +71,7 @@ namespace Glance.src.Widgets
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmTime";
-            this.Text = "x";
+            this.Text = "Time";
             this.Load += new System.EventHandler(this.frmTime_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmTime_MouseDown);
             this.ResumeLayout(false);
