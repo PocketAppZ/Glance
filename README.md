@@ -1,5 +1,6 @@
 # ![Glance Logo](https://user-images.githubusercontent.com/53088136/145693921-000a8b73-25ff-4ec1-b1e3-f79c9139a612.png) 
 **The next big step with widgets and customization.** 
+
 ![GitHub all releases](https://img.shields.io/github/downloads/LiteTools/Glance/total?style=flat-square)
 
 ## Intentions
