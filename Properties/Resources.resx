@@ -124,13 +124,16 @@
   <data name="BatteryOnChargeWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BatteryOnChargeWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Glance Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glance Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BatteryCharging" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BatteryCharging.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BatteryChargingWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BatteryChargingWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Glance Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Glance Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Glance Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glance Small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
