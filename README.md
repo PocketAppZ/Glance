@@ -6,12 +6,24 @@
 ## Intentions
 Glance is the next big step for desktop widgets.  Glance is a widget application that has many features and settings, so you can customize it to your heart's content while still being lightweight and using a minimal amount of CPU / GPU usage.
 
-## Features
-- A widget to check the current time and date.
 
-- A widget to check if your computer is on battery or charging, and it's current percentage.
+## List of Features
 
-- Lightweight and easy to use!
+- Battery Widget:
+  - Shows battery percentage
+  - Checks if power source is plugged in or not
+  - Picture changes upon battery activity.
+  - Supports dark / light theme.
+
+- Time Widget:
+  - Shows the time in HH:MM:SS.
+  - Adjusts with your timezones.
+  - Shows the current date.
+  - Supports dark / light theme.
+
+- Settings:
+  - Change the theme for all widgets.
+  - Other Settings. (WIP).
 
 
 ### Contributors
