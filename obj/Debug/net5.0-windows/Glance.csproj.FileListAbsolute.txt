@@ -20,3 +20,6 @@ C:\Users\Super\Desktop\Glance\Glance\Glance\obj\Debug\net5.0-windows\Glance.src.
 C:\Users\Super\Desktop\Glance\Glance\Glance\obj\Debug\net5.0-windows\Glance.Properties.Resources.resources
 C:\Users\Super\Desktop\Glance\Glance\Glance\obj\Debug\net5.0-windows\Glance.src.Widgets.frmTime.resources
 C:\Users\Super\Desktop\Glance\Glance\Glance\obj\Debug\net5.0-windows\Glance.src.frmOptions.resources
+C:\Users\Super\Desktop\Glance\Glance\Glance\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\Super\Desktop\Glance\Glance\Glance\obj\Debug\net5.0-windows\Glance.src.Widgets.frmInternet.resources
+C:\Users\Super\Desktop\Glance\Glance\Glance\obj\Debug\net5.0-windows\Glance.csproj.CopyComplete

@@ -20,11 +20,13 @@ namespace Glance
         src.Widgets.frmBattery Battery = new src.Widgets.frmBattery();
         src.Widgets.frmTime Time = new src.Widgets.frmTime();
         src.frmOptions Options = new src.frmOptions();
+        src.Widgets.frmInternet Internet = new src.Widgets.frmInternet();
 
         private void button1_Click(object sender, EventArgs e)
         {
             Battery.Show();
             Time.Show();
+            Internet.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
