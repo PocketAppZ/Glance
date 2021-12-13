@@ -1,7 +1,7 @@
 <h1 align="center">
    <img src="https://user-images.githubusercontent.com/53088136/145693921-000a8b73-25ff-4ec1-b1e3-f79c9139a612.png" alt="Glance" height="128" /><br>
   <img alt="GitHub license" src="https://img.shields.io/github/license/litetools/Glance?style=flat-square"> <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/LiteTools/Glance/total?style=flat-square"> <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/LiteTools/Glance?style=flat-square"> <img alt="GitHub issues" src="https://img.shields.io/github/issues/LiteTools/Glance?style=flat-square">
-  
+  </h1>
 
 **Glance** is the next big step with widgets and customization.
 
